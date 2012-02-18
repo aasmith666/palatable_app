@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe "bookmarks/edit.html.erb" do
+describe Bookmark do
   pending "add some examples to (or delete) #{__FILE__}"
 end

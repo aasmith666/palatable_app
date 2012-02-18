@@ -2,11 +2,28 @@ require 'spec_helper'
 
 describe BookmarksController do
   render_views
+  
+  before(:each) do
+    #
+    @base_title = "pal.atab.le"
+    #
+  end
 
   describe "GET 'index'" do
     it "should be successful" do
       get 'index'
       response.should be_success
+    end
+    
+    it "should have the right title" do
+      get 'index'
+      response.should have_selector("title",
+                        :content => @base_title + " | Home")
+    end
+  
+   it "should have body content" do
+      get 'index'
+      response.body.should_not =~ /<body>\s*<\/body>/
     end
   end
 
@@ -15,12 +32,24 @@ describe BookmarksController do
       get 'create'
       response.should be_success
     end
+    
+    it "should have the right title" do
+      get 'create'
+      response.should have_selector("title",
+                        :content => @base_title + " | Create New Bookmark")
+    end
   end
 
   describe "GET 'new'" do
     it "should be successful" do
       get 'new'
       response.should be_success
+    end
+    
+    it "should have the right title" do
+      get 'new'
+      response.should have_selector("title",
+                        :content => @base_title + " | Add New Bookmark")
     end
   end
 
@@ -29,12 +58,23 @@ describe BookmarksController do
       get 'show'
       response.should be_success
     end
+    it "should have the right title" do
+      get 'show'
+      response.should have_selector("title",
+                        :content => @base_title + " | View All Bookmarks")
+    end
   end
 
   describe "GET 'update'" do
     it "should be successful" do
       get 'update'
       response.should be_success
+    end
+    
+    it "should have the right title" do
+      get 'update'
+      response.should have_selector("title",
+                        :content => @base_title + " | Update Bookmark")
     end
   end
 
@@ -43,6 +83,12 @@ describe BookmarksController do
       get 'edit'
       response.should be_success
     end
+    
+    it "should have the right title" do
+      get 'edit'
+      response.should have_selector("title",
+                        :content => @base_title + " | Edit Bookmark")
+    end
   end
 
   describe "GET 'destroy'" do
@@ -50,6 +96,10 @@ describe BookmarksController do
       get 'destroy'
       response.should be_success
     end
+    it "should have the right title" do
+      get 'destroy'
+      response.should have_selector("title",
+                        :content => @base_title + " | Delete Bookmark")
+    end
   end
-
 end
