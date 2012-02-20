@@ -1,17 +1,18 @@
 PalatableApp::Application.routes.draw do
-  get "bookmarks/index"
+  resources :bookmarks
+  #get "bookmarks/index"
 
-  get "bookmarks/create"
+  #get "bookmarks/create"
 
-  get "bookmarks/new"
+  #get "bookmarks/new"
 
-  get "bookmarks/show"
+  #get "bookmarks/show"
 
-  get "bookmarks/update"
+  #get "bookmarks/update"
 
-  get "bookmarks/edit"
+  #get "bookmarks/edit"
 
-  get "bookmarks/destroy"
+  #get "bookmarks/destroy"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
