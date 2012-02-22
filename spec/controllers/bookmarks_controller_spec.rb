@@ -15,9 +15,9 @@ describe BookmarksController do
       response.should be_success
     end
     
-    it "should have the right title" do
+    it "should have the right heading" do
       get 'index'
-      response.should have_selector("title",
+      response.should have_selector("h1",
                         :content => @base_title + " | Home")
     end
   
@@ -27,18 +27,18 @@ describe BookmarksController do
     end
   end
 
-  describe "GET 'create'" do
-    it "should be successful" do
-      get 'create'
-      response.should be_success
-    end
+  #describe "GET 'create'" do
+  #  it "should be successful" do
+  #    get 'create'
+  #    response.should be_success
+   # end
     
-    it "should have the right title" do
-      get 'create'
-      response.should have_selector("title",
-                        :content => @base_title + " | Create New Bookmark")
-    end
-  end
+  #  it "should have the right heading" do
+  #    get 'create'
+   #   response.should have_selector("h1",
+   #                     :content => @base_title + " | Create New Bookmark")
+   # end
+ # end
 
   describe "GET 'new'" do
     it "should be successful" do
@@ -46,60 +46,60 @@ describe BookmarksController do
       response.should be_success
     end
     
-    it "should have the right title" do
+    it "should have the right heading" do
       get 'new'
-      response.should have_selector("title",
-                        :content => @base_title + " | Add New Bookmark")
+      response.should have_selector("h1",
+                        :content => @base_title + " | Add Bookmark")
     end
   end
 
-  describe "GET 'show'" do
-    it "should be successful" do
-      get 'show'
-      response.should be_success
-    end
-    it "should have the right title" do
-      get 'show'
-      response.should have_selector("title",
-                        :content => @base_title + " | View All Bookmarks")
-    end
-  end
+  #describe "GET 'show'" do
+  #  it "should be successful" do
+   #   get 'show'
+    #  response.should be_success
+   # end
+   # it "should have the right heading" do
+    #  get 'show'
+     # response.should have_selector("h1",
+                     #   :content => @base_title + " | View All Bookmarks")
+  #  end
+ # end
 
-  describe "GET 'update'" do
-    it "should be successful" do
-      get 'update'
-      response.should be_success
-    end
+ # describe "GET 'update'" do
+ #   it "should be successful" do
+  #    get 'update'
+  #    response.should be_success
+  #  end
     
-    it "should have the right title" do
-      get 'update'
-      response.should have_selector("title",
-                        :content => @base_title + " | Update Bookmark")
-    end
-  end
+   # it "should have the right heading" do
+   #   get 'update'
+   #   response.should have_selector("h1",
+    #                    :content => @base_title + " | Update Bookmark")
+   # end
+ # end
 
-  describe "GET 'edit'" do
-    it "should be successful" do
-      get 'edit'
-      response.should be_success
-    end
+#  describe "GET 'edit'" do
+#    it "should be successful" do
+#      get 'edit'
+ #     response.should be_success
+#    end
     
-    it "should have the right title" do
-      get 'edit'
-      response.should have_selector("title",
-                        :content => @base_title + " | Edit Bookmark")
-    end
-  end
+ #   it "should have the right heading" do
+  #    get 'edit'
+ #     response.should have_selector("h1",
+  #                      :content => @base_title + " | Edit Bookmark")
+  #  end
+ # end
 
-  describe "GET 'destroy'" do
-    it "should be successful" do
-      get 'destroy'
-      response.should be_success
-    end
-    it "should have the right title" do
-      get 'destroy'
-      response.should have_selector("title",
-                        :content => @base_title + " | Delete Bookmark")
-    end
-  end
+#  describe "GET 'destroy'" do
+  #  it "should be successful" do
+  #    get 'destroy'
+  #    response.should be_success
+  #  end
+   # it "should have the right heading" do
+   #   get 'destroy'
+   #   response.should have_selector("h1",
+    #                    :content => @base_title + " | Delete Bookmark")
+   # end
+#  end
 end

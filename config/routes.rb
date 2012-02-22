@@ -6,11 +6,11 @@ PalatableApp::Application.routes.draw do
 
   #get "bookmarks/new"
 
-  #get "bookmarks/show"
+ #get "bookmarks/show"
 
-  #get "bookmarks/update"
+ #get "bookmarks/update"
 
-  #get "bookmarks/edit"
+ #get "bookmarks/edit"
 
   #get "bookmarks/destroy"
 

@@ -46,6 +46,17 @@ class BookmarksController < ApplicationController
 
   def update
     @title = "Update"
+    @bookmark = Bookmark.find(params[:id])
+
+    respond_to do |format|
+      if @bookmark.update_attributes(params[:bookmark])
+        format.html { redirect_to(@bookmark, :notice => 'Bookmark was successfully updated.') }
+        format.xml  { head :ok }
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @bookmark.errors, :status => :unprocessable_entity }
+      end
+    end
   end
 
   def edit
@@ -55,6 +66,13 @@ class BookmarksController < ApplicationController
 
   def destroy
     @title = "Delete"
-  end
+    @bookmark = Bookmark.find(params[:id])
+    @bookmark.destroy
 
-end
+    respond_to do |format|
+      format.html { redirect_to(bookmarks_url) }
+      format.xml  { head :ok }
+    end
+   end
+ end
+

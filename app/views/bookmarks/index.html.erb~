@@ -1,3 +1,29 @@
-<h1>pal.atab.le</h1>
-  <p>This is the Home Page for pal.atab.le</p>
+<h1>pal.atab.le | Home</h1>
+
+<table>
+  <tr>
+    <th>URL</th>
+    <th>Name</th>
+    <th>Date Saved</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @bookmarks.each do |bookmark| %>
+  <tr>
+    <td><%= bookmark.url %></td>
+    <td><%= bookmark.name %></td>
+    <td><%= bookmark.date_saved %></td>
+    <td><%= link_to 'Show', bookmark %></td>
+    <td><%= link_to 'Edit', edit_bookmark_path(bookmark) %></td>
+    <td><%= link_to 'Destroy', bookmark, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Bookmark', new_bookmark_path %>
+
   

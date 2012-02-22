@@ -1,4 +1,4 @@
-<h1>Add Bookmark</h1>
+<h1>pal.atab.le | Add Bookmark</h1>
   <form>
     <input type="text" name="addBookmark" />
     <input type="submit" value="Submit" />
