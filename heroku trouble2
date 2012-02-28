@@ -1,0 +1,284 @@
+[master]$ ls -a
+.   app     config.ru  doc      Gemfile~      .git        heroku trouble  log     Rakefile         README.markdown~  .rspec~  spec  vendor
+..  config  db         Gemfile  Gemfile.lock  .gitignore  lib             public  README.markdown  .rspec            script   tmp
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ rm -rf .git
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ ls -a
+.   app     config.ru  doc      Gemfile~      .gitignore      lib  public    README.markdown   .rspec   script  tmp
+..  config  db         Gemfile  Gemfile.lock  heroku trouble  log  Rakefile  README.markdown~  .rspec~  spec    vendor
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ git init
+Initialized empty Git repository in /home/student/rails_class/projects/palatable_app/.git/
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ git add .
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ git commit -m "updated .git file"
+[master (root-commit) a616d09] updated .git file
+ 82 files changed, 11858 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 .rspec
+ create mode 100644 .rspec~
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 Gemfile~
+ create mode 100644 README.markdown
+ create mode 100644 README.markdown~
+ create mode 100644 Rakefile
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/bookmarks_controller.rb
+ create mode 100644 app/controllers/bookmarks_controller.rb~
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/helpers/bookmarks_helper.rb
+ create mode 100644 app/models/bookmark.rb
+ create mode 100644 app/models/bookmark.rb~
+ create mode 100644 app/views/bookmarks/_form.html.erb
+ create mode 100644 app/views/bookmarks/_form.html.erb~
+ create mode 100644 app/views/bookmarks/create.html.erb
+ create mode 100644 app/views/bookmarks/create.html.erb~
+ create mode 100644 app/views/bookmarks/destroy.html.erb
+ create mode 100644 app/views/bookmarks/destroy.html.erb~
+ create mode 100644 app/views/bookmarks/edit.html.erb
+ create mode 100644 app/views/bookmarks/edit.html.erb~
+ create mode 100644 app/views/bookmarks/index.html.erb
+ create mode 100644 app/views/bookmarks/index.html.erb~
+ create mode 100644 app/views/bookmarks/new.html.erb
+ create mode 100644 app/views/bookmarks/new.html.erb~
+ create mode 100644 app/views/bookmarks/show.html.erb
+ create mode 100644 app/views/bookmarks/show.html.erb~
+ create mode 100644 app/views/bookmarks/update.html.erb
+ create mode 100644 app/views/bookmarks/update.html.erb~
+ create mode 100644 app/views/layouts/OLDapplication.html.erb~
+ create mode 100644 app/views/layouts/application.html.erb
+ create mode 100644 app/views/layouts/application.html.erb~
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/secret_token.rb
+ create mode 100644 config/initializers/session_store.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/routes.rb
+ create mode 100644 config/routes.rb~
+ create mode 100644 db/migrate/20120218182924_create_bookmarks.rb
+ create mode 100644 db/schema.rb
+ create mode 100644 db/seeds.rb
+ create mode 100644 doc/README_FOR_APP
+ create mode 100644 heroku trouble
+ create mode 100644 lib/tasks/.gitkeep
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/images/rails.png
+ create mode 100644 public/images/web-app-theme/avatar.png
+ create mode 100644 public/images/web-app-theme/icons/application_edit.png
+ create mode 100644 public/images/web-app-theme/icons/cross.png
+ create mode 100644 public/images/web-app-theme/icons/key.png
+ create mode 100644 public/images/web-app-theme/icons/tick.png
+ create mode 100644 public/index.html
+ create mode 100644 public/javascripts/application.js
+ create mode 100644 public/javascripts/controls.js
+ create mode 100644 public/javascripts/dragdrop.js
+ create mode 100644 public/javascripts/effects.js
+ create mode 100644 public/javascripts/prototype.js
+ create mode 100644 public/javascripts/rails.js
+ create mode 100644 public/robots.txt
+ create mode 100644 public/stylesheets/.gitkeep
+ create mode 100644 public/stylesheets/web-app-theme/base.css
+ create mode 100644 public/stylesheets/web-app-theme/override.css
+ create mode 100644 public/stylesheets/web-app-theme/themes/warehouse/style.css
+ create mode 100755 script/rails
+ create mode 100644 spec/controllers/bookmarks_controller_spec.rb
+ create mode 100644 spec/controllers/bookmarks_controller_spec.rb~
+ create mode 100644 spec/models/bookmark_spec.rb
+ create mode 100644 spec/models/bookmark_spec.rb~
+ create mode 100644 spec/spec_helper.rb
+ create mode 100644 vendor/plugins/.gitkeep
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ git push
+fatal: No destination configured to push to.
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ gem install heroku
+Successfully installed heroku-2.20.1
+1 gem installed
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku keys:add
+Found existing public key: /home/student/.ssh/id_rsa.pub
+Uploading SSH public key /home/student/.ssh/id_rsa.pub
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku create
+Creating empty-wind-9799... done, stack is bamboo-mri-1.9.2
+http://empty-wind-9799.heroku.com/ | git@heroku.com:empty-wind-9799.git
+Git remote heroku added
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ git push heroku master
+Counting objects: 111, done.
+Compressing objects: 100% (94/94), done.
+Writing objects: 100% (111/111), 101.18 KiB, done.
+Total 111 (delta 4), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Ruby/Rails app detected
+-----> Detected Rails is not set to serve static_assets
+       Installing rails3_serve_static_assets... done
+-----> Configure Rails 3 to disable x-sendfile
+       Installing rails3_disable_x_sendfile... done
+-----> Configure Rails to log to stdout
+       Installing rails_log_stdout... done
+-----> Gemfile detected, running Bundler version 1.0.7
+       Unresolved dependencies detected; Installing...
+       Using --without development:test
+       Fetching source index for http://rubygems.org/
+       Installing rake (0.9.2.2) 
+       Installing abstract (1.0.0) 
+       Installing activesupport (3.0.11) 
+       Installing builder (2.1.2) 
+       Installing i18n (0.5.0) 
+       Installing activemodel (3.0.11) 
+       Installing erubis (2.6.6) 
+       Installing rack (1.2.5) 
+       Installing rack-mount (0.6.14) 
+       Installing rack-test (0.5.7) 
+       Installing tzinfo (0.3.31) 
+       Installing actionpack (3.0.11) 
+       Installing mime-types (1.17.2) 
+       Installing polyglot (0.3.3) 
+       Installing treetop (1.4.10) 
+       Installing mail (2.2.19) 
+       Installing actionmailer (3.0.11) 
+       Installing arel (2.0.10) 
+       Installing activerecord (3.0.11) 
+       Installing activeresource (3.0.11) 
+       Installing gravatar_image_tag (1.0.0.pre2) 
+       Installing json (1.6.5) with native extensions 
+       Using bundler (1.0.7) 
+       Installing rdoc (3.12) 
+       Installing thor (0.14.6) 
+       Installing railties (3.0.11) 
+       Installing rails (3.0.11) 
+       Installing will_paginate (3.0.pre2) 
+       Your bundle is complete! It was installed into ./.bundle/gems/
+-----> Compiled slug size is 5.2MB
+-----> Launching... done, v4
+       http://empty-wind-9799.heroku.com deployed to Heroku
+
+To git@heroku.com:empty-wind-9799.git
+ * [new branch]      master -> master
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku rake db:migrate
+==  CreateBookmarks: migrating ================================================
+-- create_table(:bookmarks)
+   -> 0.0121s
+==  CreateBookmarks: migrated (0.0122s) =======================================
+
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ gem install taps
+Successfully installed taps-0.3.23
+1 gem installed
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ bundle
+Using rake (0.9.2.2) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.11) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.11) 
+Using erubis (2.6.6) 
+Using rack (1.2.5) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.31) 
+Using actionpack (3.0.11) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.11) 
+Using arel (2.0.10) 
+Using activerecord (3.0.11) 
+Using activeresource (3.0.11) 
+Using addressable (2.2.7) 
+Using annotate (2.4.0) 
+Using autotest-rails-pure (4.1.2) 
+Using autotest-standalone (4.5.9) 
+Using bundler (1.0.21) 
+Using diff-lcs (1.1.3) 
+Using factory_girl (1.3.3) 
+Using json (1.6.5) 
+Using rdoc (3.12) 
+Using thor (0.14.6) 
+Using railties (3.0.11) 
+Using rails (3.0.11) 
+Using factory_girl_rails (1.0) 
+Using faker (0.3.1) 
+Using gravatar_image_tag (1.0.0.pre2) 
+Using launchy (2.0.5) 
+Using rest-client (1.6.7) 
+Using rubyzip (0.9.6.1) 
+Using term-ansicolor (1.0.7) 
+Using heroku (2.20.1) 
+Using nokogiri (1.5.0) 
+Using rspec-core (2.6.4) 
+Using rspec-expectations (2.6.0) 
+Using rspec-mocks (2.6.0) 
+Using rspec (2.6.0) 
+Using rspec-rails (2.6.1) 
+Using spork (0.9.0.rc8) 
+Using sqlite3 (1.3.3) 
+Using web-app-theme (0.7.0) 
+Using webrat (0.7.1) 
+Using will_paginate (3.0.pre2) 
+Your bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku db:push
+Loaded Taps v0.3.23
+Auto-detected local database: sqlite://db/development.sqlite3
+Warning: Data in the app 'empty-wind-9799' will be overwritten and will not be recoverable.
+
+ !    WARNING: Potentially Destructive Action
+ !    This command will affect the app: empty-wind-9799
+ !    To proceed, type "empty-wind-9799" or re-run this command with --confirm empty-wind-9799
+
+> empty-wind-9799
+Sending schema
+Schema:        100% |==================================================================================================================================| Time: 00:00:03
+Sending indexes
+schema_migrat: 100% |==================================================================================================================================| Time: 00:00:01
+Sending data
+2 tables, 5 records
+schema_migrat: 100% |==================================================================================================================================| Time: 00:00:00
+bookmarks:     100% |==================================================================================================================================| Time: 00:00:00
+Resetting sequences
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku open
+Opening http://empty-wind-9799.heroku.com/
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ failed to create drawable
+^C
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ 

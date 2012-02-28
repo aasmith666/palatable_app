@@ -1,0 +1,90 @@
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ gem install heroku
+Successfully installed heroku-2.20.1
+1 gem installed
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku keys:add
+Found existing public key: /home/student/.ssh/id_rsa.pub
+Uploading SSH public key /home/student/.ssh/id_rsa.pub
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku create
+Creating empty-waterfall-3743........ done, stack is bamboo-mri-1.9.2
+http://empty-waterfall-3743.heroku.com/ | git@heroku.com:empty-waterfall-3743.git
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ gem install taps
+Successfully installed taps-0.3.23
+1 gem installed
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku rake db:migrate
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku db:push
+Loaded Taps v0.3.23
+Auto-detected local database: sqlite://db/development.sqlite3
+Warning: Data in the app 'radiant-sword-1626' will be overwritten and will not be recoverable.
+
+ !    WARNING: Potentially Destructive Action
+ !    This command will affect the app: radiant-sword-1626
+ !    To proceed, type "radiant-sword-1626" or re-run this command with --confirm radiant-sword-1626
+
+> ^C !    
+ !    [canceled]
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku db:push
+Loaded Taps v0.3.23
+Auto-detected local database: sqlite://db/development.sqlite3
+Warning: Data in the app 'radiant-sword-1626' will be overwritten and will not be recoverable.
+
+ !    WARNING: Potentially Destructive Action
+ !    This command will affect the app: radiant-sword-1626
+ !    To proceed, type "radiant-sword-1626" or re-run this command with --confirm radiant-sword-1626
+
+> ^C !    
+ !    [canceled]
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ gem install heroku
+Successfully installed heroku-2.20.1
+1 gem installed
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku keys:add
+Found existing public key: /home/student/.ssh/id_rsa.pub
+Uploading SSH public key /home/student/.ssh/id_rsa.pub
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku create
+Creating empty-winter-7379... done, stack is bamboo-mri-1.9.2
+http://empty-winter-7379.heroku.com/ | git@heroku.com:empty-winter-7379.git
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ git push heroku master
+
+ !  No such app as radiant-sword-1626.
+
+fatal: The remote end hung up unexpectedly
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ git push
+Everything up-to-date
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ gem install taps
+Successfully installed taps-0.3.23
+1 gem installed
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ heroku rake db:migrate
+ !    Resource not found
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ ^C
+student@matcUbuntu:
+~/rails_class/projects/palatable_app 
+[master]$ kate
