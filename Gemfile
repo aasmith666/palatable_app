@@ -11,15 +11,11 @@ gem 'will_paginate', '3.0.pre2'
 
 group :development do
   gem 'heroku'
-  gem 'rspec-rails', '2.6.1'
-#  gem 'web-app-theme', '>= 0.6.2'
   gem 'annotate', '2.4.0'
   gem 'faker', '0.3.1'
 end
 
 group :test do
-  gem 'rspec-rails', '2.6.1'
-#  gem 'web-app-theme', '>= 0.6.2'
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc8'
   gem 'factory_girl_rails', '1.0'
@@ -29,6 +25,7 @@ end
 
 group :development, :test do
   gem 'web-app-theme', '>= 0.6.2'
+  gem 'rspec-rails', '2.6.1'
 end
 
 # Use unicorn as the web server

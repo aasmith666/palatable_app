@@ -12,6 +12,7 @@ class BookmarksController < ApplicationController
   def create
     @title = "Create"
     @bookmark = Bookmark.new(params[:bookmark])
+    @bookmark.date_saved = Date.today
 
     respond_to do |format|
       if @bookmark.save

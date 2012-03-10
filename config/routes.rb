@@ -1,17 +1,12 @@
 PalatableApp::Application.routes.draw do
-  resources :bookmarks
+  resources :bookmarks#, :only => [:index, :new, :create, :show] #this refers to which urls will work
+  
   #get "bookmarks/index"
-
   #get "bookmarks/create"
-
   #get "bookmarks/new"
-
- #get "bookmarks/show"
-
- #get "bookmarks/update"
-
- #get "bookmarks/edit"
-
+  #get "bookmarks/show"
+  #get "bookmarks/update"
+  #get "bookmarks/edit"
   #get "bookmarks/destroy"
 
   # The priority is based upon order of creation:
