@@ -1,2 +1,27 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h1>pal.atab.le | Sign Up</h1>
+<%= form_for(@user) do |f| %>
+<%= render '/users/error_messages' %>
+	<div class="field">
+		<%= f.label :username %><br />
+		<%= f.text_field :username %>
+	</div>
+	<div class="field">
+		<%= f.label :real_name %><br />
+		<%= f.text_field :real_name %>
+	</div>
+	<div class="field">
+		<%= f.label :email %><br />
+		<%= f.text_field :email %>
+	</div>
+	<div class="field">
+		<%= f.label :password %><br />
+		<%= f.password_field :password %>
+	</div>
+	<div class="field">
+		<%= f.label :password_confirmation, "Confirmation" %><br />
+		<%= f.password_field :password_confirmation %>
+	</div>
+	<div class="actions">
+		<%= f.submit "Register" %>
+	</div>
+<% end %>

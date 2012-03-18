@@ -1,29 +1,42 @@
 class UsersController < ApplicationController
-  def index
-    @title = "Home"
+	def index
+		@title = "Home"
     #@user = User.find(params[:email, :password])
-  end
+		@user = User.new
+	end
 
-  def new
-    @title = "Sign Up"
-  end
+	def new
+		@user = User.new
+		@title = "Sign Up"
+	end
 
-  def create
+	def create
+		@user = User.new(params[:user])
+		if @user.save
+			flash[:success] = "Welcome to Pal.atab.le!"
+			redirect_to @user
+		else
+			@title = "Sign up"
+			render 'new'
+		end
+	end
+	
+
+	def edit
+		@title = "Edit"
+	end
+
+	def update
     
-  end
+	end
 
-  def edit
-    @title = "Edit"
-  end
-
-  def update
+	def show
+		@title = "View"
+		@user = User.find(params[:id])
     
-  end
+	end
 
-  def show
-    #@title = "View"
-	@user = User.find(params[:id])
-    
-  end
-
+	def help
+		@title = "Help"
+	end
 end
