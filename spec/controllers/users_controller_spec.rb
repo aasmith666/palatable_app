@@ -71,7 +71,7 @@ require 'spec_helper'
 		
 			it "should have a welcome message" do
 				post :create, :user => @attr
-				flash[:success].should =~ /welcome to the sample app/i
+				flash[:success].should =~ /Welcome to Palatable/i
 			end
 		end
 	end
