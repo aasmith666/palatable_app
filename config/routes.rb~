@@ -1,7 +1,7 @@
 PalatableApp::Application.routes.draw do
   resources :users
   
-  root 	:to => 'users#_form'
+  root 	:to => 'users#login'
   
   #match '/contact', 	:to => 'pages#contact'
   #match '/about', 	:to => 'pages#about'

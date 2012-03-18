@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   def index
     @title = "Home"
-    @user = User.find(params[:email, :password])
+    #@user = User.find(params[:email, :password])
   end
 
   def new

@@ -21,7 +21,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    @title = "View"
+    #@title = "View"
+	@user = User.find(params[:id])
     
   end
 

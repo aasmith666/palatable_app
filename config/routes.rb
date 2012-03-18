@@ -2,6 +2,7 @@ PalatableApp::Application.routes.draw do
   resources :users
   
   root 	:to => 'users#login'
+  #root 	:to => 'bookmarks#index'
   
   #match '/contact', 	:to => 'pages#contact'
   #match '/about', 	:to => 'pages#about'
