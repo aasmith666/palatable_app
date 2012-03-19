@@ -4,7 +4,7 @@ require 'spec_helper'
 		render_views
   
 		before(:each) do
-			@base_title = "pal.atab.le"
+			@base_title = "pal.atab.le | "
 		end
   
   #describe "GET 'index'" do
