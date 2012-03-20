@@ -1,16 +1,16 @@
 class User < ActiveRecord::Base
 	
 	has_many :bookmarks
-	#ADD ACCESSOR
-	attr_accessor	:password
+	#ADD ACCESSOR - exists in the object, but not in the database
+	#attr_accessor	:password
 	
+	#PASS in the field you want into the object
 	attr_accessible :username, :real_name, :email, :password, :password_confirmation
   
   #Define regular expression variable for valid email address
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   
   #Add Validation
-  
   validates :username, 	:presence 	=> true,
 			:uniqueness	=> { :case_sensitive => false }
   
@@ -28,3 +28,17 @@ class User < ActiveRecord::Base
   
   
 end
+
+# == Schema Information
+#
+# Table name: users
+#
+#  id         :integer         not null, primary key
+#  username   :string(255)
+#  real_name  :string(255)
+#  email      :string(255)
+#  password   :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+

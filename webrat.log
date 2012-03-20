@@ -3494,3 +3494,351 @@ REQUESTING PAGE: GET /new with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
 REQUESTING PAGE: GET /new with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"", "real_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}
+REQUESTING PAGE: GET /new with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"\xE2\x9C\x93", "user"=>{"username"=>"Example User", "real_name"=>"Example Name", "email"=>"user@example.com", "password"=>"foobar", "password_confirmation"=>"foobar"}, "commit"=>"Register"} and HTTP headers {"HTTP_REFERER"=>"/new"}

@@ -80,7 +80,7 @@ describe User do
     
 		it "should have a password confirmation attribute" do
 			#User.new(@attr).should respond_to(:password)
-		@user.should respond_to(:password_confirmation)
+			@user.should respond_to(:password_confirmation)
 		end
 	end
 	
@@ -111,3 +111,17 @@ describe User do
 	
 	
 end
+
+# == Schema Information
+#
+# Table name: users
+#
+#  id         :integer         not null, primary key
+#  username   :string(255)
+#  real_name  :string(255)
+#  email      :string(255)
+#  password   :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+

@@ -2,14 +2,6 @@ class UsersController < ApplicationController
 	def index
 		@title = "Home"
 		@user = User.new
-		#@user = User.find(params[:email, :password])
-		#if @user.id == User.find(params[:id])
-		#	flash[:success] = "Welcome to Pal.atab.le!"
-		#	redirect_to @user
-		#else
-		#	@title = "Sign up"
-		#	render 'new'
-		#end	
 	end
 
 	def new
