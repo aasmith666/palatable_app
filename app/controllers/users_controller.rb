@@ -23,6 +23,7 @@ class UsersController < ApplicationController
 
 	def edit
 		@title = "Edit"
+		@user = User.find(params[:id])
 	end
 
 	def update

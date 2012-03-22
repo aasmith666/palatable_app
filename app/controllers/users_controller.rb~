@@ -2,6 +2,13 @@ class UsersController < ApplicationController
 	def index
 		@title = "Home"
 		@user = User.new
+		#if @user == User.find(params[:id])
+			#flash[:success] = "Welcome Back!"
+			#redirect_to @user
+		#else
+			#@title = "Sign up"
+			#render 'new'
+		#end
 	end
 
 	def new
@@ -23,6 +30,7 @@ class UsersController < ApplicationController
 
 	def edit
 		@title = "Edit"
+		@user = User.find(params[:id])
 	end
 
 	def update

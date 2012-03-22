@@ -1,6 +1,10 @@
-<h1>Edit Bookmark</h1>
+<h1>pal.atab.le | Edit Bookmark</h1>
 
 <%= render 'form' %>
+ 
+  <div class="actions">
+    <%= f.submit 'Edit Bookmark' %>
+  </div>
 
 <%= link_to 'Show', @bookmark %> |
 <%= link_to 'Back', bookmarks_path %>

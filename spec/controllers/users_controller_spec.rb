@@ -54,25 +54,25 @@ require 'spec_helper'
 		describe "success" do
 
 			before(:each) do
-				@user = Factory(:user)
-				#@attr = { :username => "New User", :real_name => "Real Name", :email => "user@example.com",
-                #  :password => "foobar", :password_confirmation => "foobar" }
+				#@user = Factory(:user)
+				@attr = { :username => "New User", :real_name => "Real Name", :email => "user@example.com",
+                  :password => "foobar666", :password_confirmation => "foobar666" }
 			end
 
 			it "should create a user" do
 				lambda do
-					post :create, :user => @user#@attr
+					post :create, :user => @attr
 				end.should change(User, :count).by(1)
 			end
 
 			it "should redirect to the user show page" do
-				post :create, :user => @user#@attr
+				post :create, :user => @attr
 				response.should redirect_to(user_path(assigns(:user)))
 			end    
 		
 			it "should have a welcome message" do
-				post :create, :user => @user#@attr
-				flash[:success].should =~ /Welcome to Palatable/i
+				post :create, :user => @attr
+				flash[:success].should =~ /Welcome to Pal.atab.le!/i
 			end
 		end
 	end

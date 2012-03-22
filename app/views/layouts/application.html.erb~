@@ -33,7 +33,7 @@
         <%= yield %>
         <div id="footer">
           <div class="block">
-            <p>Copyright &copy; <%= Time.now.year %> palatable_app.</p>
+            <p>Copyright &copy; <%= Time.now.year %> Allison Smith</p>
           </div>      
         </div>
       </div>

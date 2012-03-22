@@ -1,15 +1,32 @@
 <%= form_for(@user) do |f| %>
+  <%= render '/users/error_messages' %>
   
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.text_field :password %>
-  </div>
+	<div class="field">
+		<%= f.label :username %><br />
+		<%= f.text_field :username %>
+	</div>
+
+	<div class="field">
+		<%= f.label :real_name %><br />
+		<%= f.text_field :real_name %>
+	</div>
+
+	<div class="field">
+		<%= f.label :email %><br />
+		<%= f.text_field :email %>
+	</div>
   
-<div class="actions">
-    <%= f.submit 'Login' %>
-  </div>
+	<div class="field">
+		<%= f.label :password %><br />
+		<%= f.text_field :password %>
+	</div>
+
+	<div class="field">
+		<%= f.label :password_confirmation %><br />
+		<%= f.text_field :password_confirmation %>
+	</div>
+  
+	<div class="actions">
+		<%= f.submit 'Submit' %>
+	</div>
 <% end %>
