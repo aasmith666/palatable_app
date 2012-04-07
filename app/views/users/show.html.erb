@@ -1,4 +1,4 @@
-<h1>Hello <%= @user.username %></h1>
+<h1><%= gravatar_for @user %><span>&nbsp</span><%= @user.username %></h1>
 <p id="notice"><%= notice %></p>
 
 <p>

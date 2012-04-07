@@ -1,4 +1,4 @@
-<h1>Hello <%= @user.username %></h1>
+<h1><%= gravatar_for @user %><span>&nbsp &nbsp</span><%= @user.username %></h1>
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -17,4 +17,4 @@
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path(@user) %>
+<%= link_to 'Back', users_path %>

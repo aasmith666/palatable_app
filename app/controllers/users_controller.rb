@@ -31,9 +31,8 @@ class UsersController < ApplicationController
 	end
 
 	def show
-		@title = "View"
 		@user = User.find(params[:id])
-    
+		@title = @user.username
 	end
 
 	def help
