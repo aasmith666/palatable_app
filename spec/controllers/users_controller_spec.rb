@@ -3,10 +3,6 @@ require 'spec_helper'
 	describe UsersController do
 		render_views
   
-		#before(:each) do
-			#@base_title = "pal.atab.le | "
-		#end
-  
   #describe "GET 'index'" do
    # it "should be successful" do
     #  get 'index'

@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 	
-	has_many :bookmarks
+	#has_many :bookmarks
 	#ADD ACCESSOR - exists in the object, but not in the database
 	attr_accessor	:password
 	
@@ -8,56 +8,68 @@ class User < ActiveRecord::Base
 	attr_accessible :username, :real_name, :email, :password, :password_confirmation
   
   #Define regular expression variable for valid email address
-  email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+	email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   
   #Add Validation
-  validates :username, 	:presence 	=> true,
+	validates :username, 	:presence 	=> true,
 			:uniqueness	=> { :case_sensitive => false }
   
-  validates :real_name, :presence 	=> true,
+	validates :real_name, :presence 	=> true,
 			:length   	=> { :within => 2..50 }#:minimum => 2, :maximum => 50 }
   
-  validates :email, 	:presence 	=> true,
+	validates :email, 	:presence 	=> true,
 			:format		=> { :with => email_regex },
 			:uniqueness	=> { :case_sensitive => false }
   
-  validates :password, 	:presence 	=> true,
+	validates :password, 	:presence 	=> true,
 			:length   	=> { :within => 7..40 },#:minimum => 7, :maximum => 40 },
 			:confirmation 	=> true
   
-  before_save :encrypt_password
+	before_save :encrypt_password
 
   # Return true if the user's password matches the submitted password.
-  def has_password?(submitted_password)
+	def has_password?(submitted_password)
     # Compare encrypted_password with the encrypted version of
     # submitted_password.
-	  encrypted_password == encrypt(submitted_password)
-  end
+		encrypted_password == encrypt(submitted_password)
+	end
   
-  def self.authenticate(email, submitted_password)
-    user = find_by_email(email)
-    return nil  if user.nil?
-    return user if user.has_password?(submitted_password)
-  end
+	def self.authenticate(email, submitted_password)
+		user = find_by_email(email)
+		return nil  if user.nil?
+		return user if user.has_password?(submitted_password)
+	end
   
-  private
+	private
 
-    def encrypt_password
-      self.salt = make_salt unless has_password?(password)
-      self.encrypted_password = encrypt(password)
-    end
+		def encrypt_password
+		self.salt = make_salt unless has_password?(password)
+		self.encrypted_password = encrypt(password)
+		end
 
-    def encrypt(string)
-      secure_hash("#{salt}--#{string}")
-    end
+		def encrypt(string)
+			secure_hash("#{salt}--#{string}")
+		end
 
-    def make_salt
-      secure_hash("#{Time.now.utc}--#{password}")
-    end
+		def make_salt
+			secure_hash("#{Time.now.utc}--#{password}")
+		end
 
-    def secure_hash(string)
-      Digest::SHA2.hexdigest(string)
-    end
+		def secure_hash(string)
+			Digest::SHA2.hexdigest(string)
+		end
+	#end
+
+	def self.authenticate(email, submitted_password)
+		user = find_by_email(email)
+		return nil  if user.nil?
+		return user if user.has_password?(submitted_password)
+	end
+
+	def self.authenticate_with_salt(id, cookie_salt)
+		user = find_by_id(id)
+		(user && user.salt == cookie_salt) ? user : nil
+	end
   
 end
 

@@ -2,10 +2,15 @@ require 'spec_helper'
 
 describe "LayoutLinks" do
 
-	it "should have a Home page at '/users'" do
+	it "should have a Login page at '/sessions'" do
 		get '/'
-		response.should have_selector('title', :content => "Home")
+		response.should have_selector('title', :content => "Sign in")
 	end
+	
+	#it "should have a Home page at '/users'" do
+		#get '/'
+		#response.should have_selector('title', :content => "Home")
+	#end
 	
 	#it "should have a Login page at '/users'" do
   

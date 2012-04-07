@@ -1,6 +1,6 @@
-<h1>pal.atab.le | Edit</h1>
+<h1>pal.atab.le | Edit Personal Information</h1>
 
 <%= render 'edit' %>
 
 <%= link_to 'Show', @user %> |
-<%= link_to 'Back', users_path %>
+<%= link_to 'Back', users_path(@user) %>

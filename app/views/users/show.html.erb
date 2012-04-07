@@ -1,20 +1,17 @@
 <h1><%= gravatar_for @user %><span>&nbsp</span><%= @user.username %></h1>
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Username:</b>
+<p><b>Username:</b>
   <%= @user.username %>
 </p>
 
-<p>
-  <b>Real Name:</b>
+<p><b>Real Name:</b>
   <%= @user.real_name %>
 </p>
 
-<p>
-  <b>Email:</b>
+<p><b>Email:</b>
   <%= @user.email %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<%= link_to 'Home', users_path %>
