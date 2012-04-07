@@ -5,6 +5,7 @@ PalatableApp::Application.routes.draw do
   #root 	:to => 'bookmarks#index'
   
   #match '/show', 	:to => 'users#show'
+  match '/signup',  :to => 'users#new'
   match '/signin',	:to => 'users#show'
   match '/help', 	:to => 'users#help' 
   match '/new', 	:to => 'users#new'
