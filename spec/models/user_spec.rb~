@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe User do
-  before(:each) do
+	before(:each) do
 		@attr = { 
 			:username => "Example User", 
 			:real_name => "Allison Smith",
@@ -59,7 +59,7 @@ describe User do
 		end
   
 		it "should reject identical email addresses (uppercase)" do
-    #upcased_email = "USER@EXAMPLE.COM"  WRONG WAY TO DO THIS
+		#upcased_email = "USER@EXAMPLE.COM"  WRONG WAY TO DO THIS
 			upcased_email = @attr[:email].upcase
 			User.create!(@attr.merge( :email => upcased_email))
 			user_with_duplicate_email = User.new(@attr)
@@ -80,7 +80,7 @@ describe User do
     
 		it "should have a password confirmation attribute" do
 			#User.new(@attr).should respond_to(:password)
-		@user.should respond_to(:password_confirmation)
+			@user.should respond_to(:password_confirmation)
 		end
 	end
 	
@@ -106,8 +106,22 @@ describe User do
 			long = "a" * 41
 			hash = @attr.merge(:password => long, :password_confirmation => long)
 			User.new(hash).should_not be_valid
-		end
+		end	#l, primary keying(255)
 	end
 	
-	
+	describe "password encryption" do
+
+		before(:each) do
+			@user = User.create!(@attr)
+		end
+
+		it "should have an encrypted password attribute" do
+			@user.should respond_to(:encrypted_password)
+		end
+		
+		it "should set the encrypted password" do
+			@user.encrypted_password.should_not be_blank
+		end
+	end
+
 end

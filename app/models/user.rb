@@ -2,7 +2,7 @@ class User < ActiveRecord::Base
 	
 	has_many :bookmarks
 	#ADD ACCESSOR - exists in the object, but not in the database
-	#attr_accessor	:password
+	attr_accessor	:password
 	
 	#PASS in the field you want into the object
 	attr_accessible :username, :real_name, :email, :password, :password_confirmation
@@ -25,20 +25,49 @@ class User < ActiveRecord::Base
 			:length   	=> { :within => 7..40 },#:minimum => 7, :maximum => 40 },
 			:confirmation 	=> true
   
+  before_save :encrypt_password
+
+  # Return true if the user's password matches the submitted password.
+  def has_password?(submitted_password)
+    # Compare encrypted_password with the encrypted version of
+    # submitted_password.
+	  encrypted_password == encrypt(submitted_password)
+  end
   
+  private
+
+    def encrypt_password
+      self.salt = make_salt unless has_password?(password)
+      self.encrypted_password = encrypt(password)
+    end
+
+    def encrypt(string)
+      secure_hash("#{salt}--#{string}")
+    end
+
+    def make_salt
+      secure_hash("#{Time.now.utc}--#{password}")
+    end
+
+    def secure_hash(string)
+      Digest::SHA2.hexdigest(string)
+    end
   
 end
+
 
 # == Schema Information
 #
 # Table name: users
 #
-#  id         :integer         not null, primary key
-#  username   :string(255)
-#  real_name  :string(255)
-#  email      :string(255)
-#  password   :string(255)
-#  created_at :datetime
-#  updated_at :datetime
+#  id                 :integer         not null, primary key
+#  username           :string(255)
+#  real_name          :string(255)
+#  email              :string(255)
+#  password           :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#  encrypted_password :string(255)
+#  salt               :string(255)
 #
 
