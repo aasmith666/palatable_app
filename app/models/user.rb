@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 	
-	#has_many :bookmarks
+	has_many :bookmarks
 	#ADD ACCESSOR - exists in the object, but not in the database
 	attr_accessor	:password
 	
@@ -11,19 +11,19 @@ class User < ActiveRecord::Base
 	email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   
   #Add Validation
-	validates :username, 	:presence 	=> true,
-			:uniqueness	=> { :case_sensitive => false }
+	validates 	:username, 	:presence 	=> true,
+				:uniqueness	=> { :case_sensitive => false }
   
-	validates :real_name, :presence 	=> true,
-			:length   	=> { :within => 2..50 }#:minimum => 2, :maximum => 50 }
+	validates 	:real_name, :presence 	=> true,
+				:length   	=> { :within => 2..50 }#:minimum => 2, :maximum => 50 }
   
-	validates :email, 	:presence 	=> true,
-			:format		=> { :with => email_regex },
-			:uniqueness	=> { :case_sensitive => false }
+	validates 	:email, 	:presence 	=> true,
+				:format		=> { :with => email_regex },
+				:uniqueness	=> { :case_sensitive => false }
   
-	validates :password, 	:presence 	=> true,
-			:length   	=> { :within => 7..40 },#:minimum => 7, :maximum => 40 },
-			:confirmation 	=> true
+	validates 	:password, 	:presence 	=> true,
+				:length   	=> { :within => 7..40 },#:minimum => 7, :maximum => 40 },
+				:confirmation 	=> true
   
 	before_save :encrypt_password
 
