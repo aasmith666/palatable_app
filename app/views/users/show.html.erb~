@@ -1,7 +1,7 @@
 <h1><%= gravatar_for @user %><span>&nbsp</span><%= @user.username %></h1>
 <p id="notice"><%= notice %></p>
-
-<p><b>Username:</b>
+<%=  render '/layouts/navigation' %>
+<!--p><b>Username:</b>
   <%= @user.username %>
 </p>
 
@@ -13,4 +13,5 @@
   <%= @user.email %>
 </p>
 
-<%= render '/layouts/footer' %>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Home', users_path %-->

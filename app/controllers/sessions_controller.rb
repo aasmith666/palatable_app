@@ -1,10 +1,10 @@
 class SessionsController < ApplicationController
   def new
-	  @title = "Sign in"
+	@title = "Sign in"
   end
 
   def create
-		user = User.authenticate(params[:session][:email],
+	user = User.authenticate(params[:session][:email],
                            params[:session][:password])
 	if user.nil?
 		# Create an error message and re-render the signin form.
@@ -19,6 +19,8 @@ class SessionsController < ApplicationController
   end
 
   def destroy
+	sign_out
+	redirect_to root_path
   end
 
 end

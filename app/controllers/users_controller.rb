@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+	before_filter :authenticate, :only => [:edit, :update]
+	
 	def index
 		@title = "Home"
 		@user = User.new
@@ -38,4 +40,10 @@ class UsersController < ApplicationController
 	def help
 		@title = "Help"
 	end
+	
+	private
+	
+	def authenticate
+      deny_access unless signed_in?
+    end
 end
