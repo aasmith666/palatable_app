@@ -3,13 +3,20 @@ require 'spec_helper'
 	describe UsersController do
 		render_views
   
-  #describe "GET 'index'" do
-   # it "should be successful" do
-    #  get 'index'
-    #  response.should be_success
- #   end
- # end
-	describe "GET 'show'" do
+	describe "GET 'index'" do
+		
+		#before(:each) do
+			#@user = Factory(:user)
+			#User.stub!(:find, @user.id).and_return(@user)
+		#end
+		
+		it "should be successful" do
+			get :index, :id => @user
+			response.should be_success
+		end
+	end
+	
+  describe "GET 'show'" do
 
 		before(:each) do
 			@user = Factory(:user)
@@ -127,6 +134,11 @@ require 'spec_helper'
 			it "should have a welcome message" do
 				post :create, :user => @attr
 				flash[:success].should =~ /Welcome to Pal.atab.le!/i
+			end
+			
+			it "should sign the user in" do
+				post :create, :user => @attr
+				controller.should be_signed_in
 			end
 		end
 	end

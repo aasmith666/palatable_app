@@ -2,10 +2,10 @@ class UsersController < ApplicationController
 	before_filter :authenticate, :only => [:edit, :update]
 	
 	def index
-		@title = "Home"
-		@user = User.new
+		@user = User.find(params[:id])
+		@title = @user.username
 	end
-
+	
 	def new
 		@user = User.new
 		@title = "Sign Up"
@@ -38,6 +38,13 @@ class UsersController < ApplicationController
 		@title = @user.username
 	end
 
+	
+	def home
+		@user = User.find(params[:id])
+		@title = @user.username
+	end
+	
+	
 	def help
 		@title = "Help"
 	end

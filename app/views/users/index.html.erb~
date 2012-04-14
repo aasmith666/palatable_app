@@ -1,4 +1,15 @@
 <h1>pal.atab.le | Home</h1>
-<%= render '/users/form' %>
-<!--%= render '/sessions/new' %-->
-<%= render '/layouts/footer' %>
+<p><b>Username:</b>
+  <%= @user.username %>
+</p>
+
+<p><b>Real Name:</b>
+  <%= @user.real_name %>
+</p>
+
+<p><b>Email:</b>
+  <%= @user.email %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Home', home_path %>

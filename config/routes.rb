@@ -16,6 +16,7 @@ PalatableApp::Application.routes.draw do
   match '/signout',	:to => 'sessions#destroy'
   match '/help', 	:to => 'users#help' 
   match '/new', 	:to => 'users#new'
+  match '/home', 	:to => 'users#home'
 
   
   resources :bookmarks #, :only => [:index, :new, :create, :show] #this refers to which urls will work
