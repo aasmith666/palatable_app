@@ -12,4 +12,4 @@
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Home', home_path %>
+<%= link_to 'Home', users_path %>

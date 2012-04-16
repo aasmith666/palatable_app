@@ -37,13 +37,6 @@ class UsersController < ApplicationController
 		@user = User.find(params[:id])
 		@title = @user.username
 	end
-
-	
-	def home
-		@user = User.find(params[:id])
-		@title = @user.username
-	end
-	
 	
 	def help
 		@title = "Help"

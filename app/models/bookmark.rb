@@ -1,7 +1,7 @@
 class Bookmark < ActiveRecord::Base
 	belongs_to :user
 	
-	attr_accessible :url, :name, :date_saved
+	attr_accessible :url, :name
 
 	#Add Validation
 	validates_presence_of :url #, :length => { :minimum => 10 }
@@ -11,6 +11,7 @@ class Bookmark < ActiveRecord::Base
 
 end
 
+
 # == Schema Information
 #
 # Table name: bookmarks
@@ -18,8 +19,8 @@ end
 #  id         :integer         not null, primary key
 #  url        :string(255)
 #  name       :string(255)
-#  date_saved :date
 #  created_at :datetime
 #  updated_at :datetime
+#  user_id    :integer
 #
 

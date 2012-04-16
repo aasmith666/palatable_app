@@ -2,20 +2,17 @@ require 'spec_helper'
 
 	describe UsersController do
 		render_views
-  
-	describe "GET 'index'" do
-		
-		#before(:each) do
-			#@user = Factory(:user)
-			#User.stub!(:find, @user.id).and_return(@user)
-		#end
-		
-		it "should be successful" do
-			get :index, :id => @user
-			response.should be_success
+
+	
+	describe "GET 'index'" do	
+		it "should have the right title" do
+			get :show, :id => @user
+			response.should have_selector("title", :content => @user.username)
 		end
 	end
-	
+		
+		
+		
   describe "GET 'show'" do
 
 		before(:each) do
