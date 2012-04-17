@@ -2,16 +2,7 @@ require 'spec_helper'
 
 	describe UsersController do
 		render_views
-
 	
-	describe "GET 'index'" do	
-		it "should have the right title" do
-			get :show, :id => @user
-			response.should have_selector("title", :content => @user.username)
-		end
-	end
-		
-		
 		
   describe "GET 'show'" do
 
@@ -123,9 +114,10 @@ require 'spec_helper'
 				end.should change(User, :count).by(1)
 			end
 
-			it "should redirect to the user show page" do
+			it "should redirect to the user index page" do
 				post :create, :user => @attr
-				response.should redirect_to(user_path(assigns(:user)))
+				#response.should redirect_to(user_path(assigns(:user)))
+				response.should redirect_to(home_path(assigns(:user)))
 			end    
 		
 			it "should have a welcome message" do

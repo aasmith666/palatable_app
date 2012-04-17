@@ -7,8 +7,8 @@ describe "LayoutLinks" do
 		response.should have_selector('title', :content => "Sign in")
 	end
 	
-	#it "should have a Home page at '/users'" do
-		#get '/'
+	#it "should have a Home page at '/bookmarks/index'" do
+		#get '/profile'
 		#response.should have_selector('title', :content => "Home")
 	#end
 	
@@ -29,4 +29,11 @@ describe "LayoutLinks" do
 		#response.should have_selector('title', :content => "View")
 	#end
 	
+	#describe "when not signed in" do
+		#it "should have a signin link" do
+			#visit root_path
+			#response.should have_selector("a", :href => signin_path,
+            #                             :content => "Sign in")
+		#end
+	#end	
 end

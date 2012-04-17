@@ -1,17 +1,8 @@
-<h1><%= gravatar_for @user %><span>&nbsp</span><%= @user.username %></h1>
+<h1><%= gravatar_for @user %><span>&nbsp;</span><%= @user.username %></h1>
 <p id="notice"><%= notice %></p>
-<%=  render '/layouts/navigation' %>
-<!--p><b>Username:</b>
-  <%= @user.username %>
-</p>
 
-<p><b>Real Name:</b>
-  <%= @user.real_name %>
-</p>
+<div><% @user.bookmarks.each do |b| %>
+	<p><b>URL:</b>&nbsp;&nbsp;<%= b.url %>&nbsp;&nbsp;<b>Name:</b>&nbsp;&nbsp;<%= b.name %></p><hr>
+<% end %></div>
 
-<p><b>Email:</b>
-  <%= @user.email %>
-</p>
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Home', users_path %-->
+<%= render '/navigation'%>

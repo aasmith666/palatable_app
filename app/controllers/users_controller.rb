@@ -3,6 +3,7 @@ class UsersController < ApplicationController
 	
 	def index
 		@user = User.find(params[:id])
+		#@user = User.all
 		@title = @user.username
 	end
 	
@@ -12,7 +13,8 @@ class UsersController < ApplicationController
 	end
 
 	def create
-		@user = User.new(params[:user])
+		@user = User.create(params[:user])
+		#@user = User.new(params[:user])
 		if @user.save
 			sign_in @user
 			flash[:success] = "Welcome to Pal.atab.le!"
