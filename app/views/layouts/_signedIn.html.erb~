@@ -1,5 +1,5 @@
 
 <%= link_to 'Logout', signout_path %>&nbsp;&nbsp;&nbsp;
-<%= link_to 'Profile', show_path %>&nbsp;&nbsp;&nbsp;
+<%= link_to 'Profile', current_user.profile %>&nbsp;&nbsp;&nbsp;
 <%= link_to 'Help', help_path %>&nbsp;&nbsp;&nbsp;
 <%= link_to 'Search', '#' %>&nbsp;&nbsp;&nbsp;

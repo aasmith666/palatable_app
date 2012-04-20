@@ -1,4 +1,5 @@
 <h1><%= gravatar_for @user %><span>&nbsp</span><%= @user.username %>&nbspHome</h1>
+
 <p><b>Username:</b>
   <%= @user.username %>
 </p>

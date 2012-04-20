@@ -7,21 +7,19 @@ describe "LayoutLinks" do
 		response.should have_selector('title', :content => "Sign in")
 	end
 	
-	#it "should have a Home page at '/bookmarks/index'" do
-		#get '/profile'
-		#response.should have_selector('title', :content => "Home")
-	#end
-	
-	#it "should have a Login page at '/users'" do
-  
 	it "should have a Signup page at '/users/new'" do
 		get '/new'
 		response.should have_selector('title', :content => "Sign Up")
 	end
 
-	#it "should have a Help page at '/users/help'" do
-		#get '/help'
-		#response.should have_selector('title', :content => "Help")
+	it "should have a Help page at '/users/help'" do
+		get '/help'
+		response.should have_selector('title', :content => "Help")
+	end
+	
+	#it "should have a Profile page at '/users/profile'" do
+		#get '/profile'
+		#response.should have_selector('title', :content => "Profile")
 	#end
 	
 	#it "should have a View page at '/show'" do

@@ -2,7 +2,7 @@ class UsersController < ApplicationController
 	before_filter :authenticate, :only => [:edit, :update]
 	
 	def index
-		@user = User.find(params[:id])
+		@current_user = User.find(params[:id])
 		#@user = User.all
 		@title = @user.username
 	end
@@ -41,8 +41,9 @@ class UsersController < ApplicationController
 	end
 	
 	def profile
-		@user = User.find(params[:id])
-		@title = @user.username
+		@current_user = User.find(params[:id])
+		#@title = @user.username
+		@title = "Profile"
 	end
 	
 	def help

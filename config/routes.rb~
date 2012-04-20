@@ -5,8 +5,7 @@ PalatableApp::Application.routes.draw do
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]  
-  
-  root		:to => 'sessions#new'
+    
   #root 		:to => 'users#index'
   #root 	:to => 'bookmarks#index'
     
@@ -16,9 +15,9 @@ PalatableApp::Application.routes.draw do
   match '/show', 	:to => 'users#show'
   match '/help', 	:to => 'users#help' 
   match '/new', 	:to => 'users#new'
-  match '/profile', 	:to => 'users#profile'
+  match '/profile', :to => 'users#profile'
 
-  
+  root		:to => 'sessions#new'
   resources :bookmarks #, :only => [:index, :new, :create, :show] #this refers to which urls will work
   #get "users/index"
   #get "users/new"
