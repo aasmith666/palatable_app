@@ -1,0 +1,15 @@
+<h1><%= gravatar_for @user %><span>&nbsp</span><%= @user.username %>&nbspHome</h1>
+<p><b>Username:</b>
+  <%= @user.username %>
+</p>
+
+<p><b>Real Name:</b>
+  <%= @user.real_name %>
+</p>
+
+<p><b>Email:</b>
+  <%= @user.email %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Home', users_path %>

@@ -19,7 +19,6 @@ class UsersController < ApplicationController
 			sign_in @user
 			flash[:success] = "Welcome to Pal.atab.le!"
 			redirect_to @user
-			#redirect_to 'index'
 		else
 			@title = "Sign up"
 			render 'new'

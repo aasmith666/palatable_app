@@ -4,5 +4,3 @@
 <div><% @user.bookmarks.each do |b| %>
 	<p><b>URL:</b>&nbsp;&nbsp;<%= b.url %>&nbsp;&nbsp;<b>Name:</b>&nbsp;&nbsp;<%= b.name %></p><hr>
 <% end %></div>
-
-<%= render '/layouts/navigation'%>

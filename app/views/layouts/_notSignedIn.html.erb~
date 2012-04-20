@@ -1,0 +1,4 @@
+
+<%= link_to 'Signup', new_path %>
+<%= link_to 'Help', '#' %>
+<%= link_to 'Search', '#' %>
