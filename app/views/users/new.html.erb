@@ -1,6 +1,6 @@
 <h1>pal.atab.le | Sign Up</h1>
 <%= form_for(@user) do |f| %>
-<%= render '/users/error_messages' %>
+<%= render '/users/error_messages', :object => f.object %>
 	<div class="field">
 		<%= f.label :username %><br />
 		<%= f.text_field :username %>

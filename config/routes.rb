@@ -6,10 +6,10 @@ PalatableApp::Application.routes.draw do
   match '/signup',	:to => 'users#new'
   match '/signin',	:to => 'sessions#new'
   match '/signout',	:to => 'sessions#destroy'
-  match '/show', 	:to => 'users#show'
+  match '/show', 	:to => 'users#show' #bookmarks/show??
   match '/help', 	:to => 'users#help' 
   match '/new', 	:to => 'users#new'
-  match '/profile', :to => 'users#profile'
+  #match '/profile', :to => 'users#profile' #users#show??
 
   root		:to => 'sessions#new'
   resources :bookmarks #, :only => [:index, :new, :create, :show] #this refers to which urls will work

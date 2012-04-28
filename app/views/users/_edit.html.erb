@@ -1,5 +1,5 @@
 <%= form_for(@user) do |f| %>
-  <%= render '/users/error_messages' %>
+  <%= render '/users/error_messages', :object => f.object %>
   
 	<div class="field">
 		<%= f.label :username %><br />
@@ -30,3 +30,8 @@
 		<%= f.submit 'Submit' %>
 	</div>
 <% end %>
+
+<div>
+  <%= gravatar_for @user %>
+  <a href="http://gravatar.com/emails">change</a>
+</div>
