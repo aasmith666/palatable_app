@@ -49,11 +49,6 @@ class UsersController < ApplicationController
 		@title = @user.username
 	end
 	
-	def profile
-		@current_user = User.find(params[:id])
-		#@title = @user.username
-		@title = "Profile"
-	end
 	
 	def help
 		@title = "Help"

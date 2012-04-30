@@ -19,12 +19,8 @@
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </div>
-  <!--div class="field">
-    <%= f.label :date_saved %><br />
-    <%= f.date_select :date_saved %>
-    <!--%= f.text_field :date_saved => Date.today %>
-  </div-->
+  
   <div class="actions">
-    <%= f.submit 'Create Bookmark' %>
+    <%= f.submit 'Submit' %>
   </div>
 <% end %>

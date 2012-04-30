@@ -1,5 +1,6 @@
 <h1>pal.atab.le | Add Bookmark</h1>
-
+<hr>
 <%= render 'form' %>
-
-<%= link_to 'Back', bookmarks_path %>
+<br />
+<hr>
+<%= link_to 'Back', current_user %>

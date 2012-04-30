@@ -1,9 +1,14 @@
 <h1><%= gravatar_for @user %><span>&nbsp;</span><%= @user.username %></h1>
-<p id="notice"><%= notice %></p>
+<h3><%= link_to 'Edit Profile', edit_user_path(@user) %></h3>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Home', current_user %>
+<p id="notice"><%= notice %>
 
-<div><% @user.bookmarks.each do |b| %>
-	<p><b>URL:</b>&nbsp;&nbsp;<%= b.url %>&nbsp;&nbsp;<b>Name:</b>&nbsp;&nbsp;<%= b.name %></p><hr>
-<% end %></div>
+<hr>
+<% if @user.bookmarks.count == 0 %>
+	<br />
+	<%= link_to 'Add Bookmark', new_bookmark_path(@current_user) %>
+<% else %>
+	<hr>
+	<%= render '/layouts/bookmarks'%>
+<% end %>
+

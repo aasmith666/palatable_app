@@ -3,4 +3,4 @@
 <%= render 'edit' %>
 
 <%= link_to 'Show', @user %> |
-<%= link_to 'Back', users_path(@user) %>
+<%= link_to 'Back', current_user %>

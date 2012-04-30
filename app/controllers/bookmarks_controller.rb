@@ -2,6 +2,7 @@ class BookmarksController < ApplicationController
   def index
     @title = "Home"
     @bookmarks = Bookmark.all
+	#@bookmarks = Bookmark.paginate(:page => params[:page])
 
     respond_to do |format|
       format.html # index.html.erb
@@ -11,8 +12,8 @@ class BookmarksController < ApplicationController
 
   def create
     @title = "Create"
-    @bookmark = Bookmark.new(params[:bookmark])
-    @bookmark.date_saved = Date.today
+	@bookmark = Bookmark.new(params[:bookmark])
+    @bookmark.user_id = current_user.id
 
     respond_to do |format|
       if @bookmark.save
@@ -27,7 +28,7 @@ class BookmarksController < ApplicationController
 
   def new
     @title = "New"
-    @bookmark = Bookmark.new
+    @bookmark = Bookmark.new(params[:bookmark])
 
     respond_to do |format|
       format.html # new.html.erb
@@ -71,7 +72,8 @@ class BookmarksController < ApplicationController
     @bookmark.destroy
 
     respond_to do |format|
-      format.html { redirect_to(bookmarks_url) }
+      #format.html { redirect_to(bookmarks_url) }
+	  format.html { redirect_to(current_user) }
       format.xml  { head :ok }
     end
    end
