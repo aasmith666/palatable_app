@@ -10,6 +10,7 @@ PalatableApp::Application.routes.draw do
   match '/show', 	:to => 'users#show'
   match '/help', 	:to => 'users#help' 
   match '/new', 	:to => 'users#new'
+  match '/all',	:to => 'users#index'
   #match '/add',		:to => 'bookmarks#new'
   
   root		:to => 'sessions#new'

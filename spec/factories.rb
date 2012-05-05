@@ -10,6 +10,10 @@ Factory.sequence :email do |n|
   "person-#{n}@example.com"
 end
 
+Factory.sequence :username do |n|
+  "Person #{n}"
+end
+
 Factory.define :bookmark do |bookmark|
   bookmark.name "Foo bar"
   bookmark.url "http://www.fakesite.com"

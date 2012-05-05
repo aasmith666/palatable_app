@@ -3,9 +3,9 @@ class UsersController < ApplicationController
 	before_filter :correct_user, :only => [:edit, :update]
 	
 	def index
-		@current_user = User.find(params[:id])
-		#@user = User.all
-		@title = @user.username
+		#@current_user = User.find(params[:id])
+		@title = "All Users"
+		@users = User.paginate(:page => params[:page])
 	end
 	
 	def new
@@ -49,11 +49,6 @@ class UsersController < ApplicationController
 		@title = @user.username
 	end
 	
-	def profile
-		@current_user = User.find(params[:id])
-		#@title = @user.username
-		@title = "Profile"
-	end
 	
 	def help
 		@title = "Help"

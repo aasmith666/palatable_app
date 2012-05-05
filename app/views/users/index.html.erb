@@ -1,15 +1,11 @@
-<h1><%= gravatar_for @user %><span>&nbsp</span><%= @user.username %>&nbspHome</h1>
-<p><b>Username:</b>
-  <%= @user.username %>
-</p>
+<h1>All Users</h1>
 
-<p><b>Real Name:</b>
-  <%= @user.real_name %>
-</p>
+<%= will_paginate %>
+	<br /><br /><hr><br />
+	<ul class="users">
+		<%= render @users %>
+	</ul>
+	<br /><hr><br />
+	<%= link_to 'Home', current_user %>
+<%= will_paginate %>
 
-<p><b>Email:</b>
-  <%= @user.email %>
-</p>
-
-<%= link_to 'Edit', edit_user_path(current_user) %> |
-<%= link_to 'Home', current_user %>

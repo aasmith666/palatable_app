@@ -11,6 +11,7 @@
     </div>
   <% end %>
 
+<h1><%= gravatar_for current_user, :size => 30 %><span>&nbsp;</span><%= current_user.username %></h1>
   <div class="field">
     <%= f.label :url %><br />
     <%= f.text_field :url %>

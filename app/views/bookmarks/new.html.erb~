@@ -1,6 +1,6 @@
 <h1>pal.atab.le | Add Bookmark</h1>
-<hr>
+
+<%= gravatar_for @user, :size => 30 %><span>&nbsp</span><%= @user.username %>
 <%= render 'form' %>
-<br />
-<hr>
+
 <%= link_to 'Back', current_user %>
