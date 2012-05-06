@@ -3,7 +3,7 @@
 	<%= user.real_name %>&nbsp;&nbsp;|&nbsp;&nbsp;
 	<%= user.email %>
 	<% if current_user.admin? %>
-  | 	<%= link_to "delete", user, :method => :delete, :confirm => "You sure?",
-                                :title => "Delete #{user.name}" %>
+  | 	<%= link_to "Delete", user, :confirm => "You sure?", :method => :delete, 
+									:title => "Delete #{user.name}" %>
 	<% end %>
 </li>

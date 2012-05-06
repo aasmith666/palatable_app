@@ -11,7 +11,8 @@
     </div>
   <% end %>
 
-<h1><%= gravatar_for current_user %><span>&nbsp;</span><%= current_user.username %></h1>
+<h1>Add Bookmark</h1>
+<h3><%= gravatar_for current_user %><span>&nbsp;</span><%= current_user.username %></h3>
   <div class="field">
     <%= f.label :url %><br />
     <%= f.text_field :url %>
