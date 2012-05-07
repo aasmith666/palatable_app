@@ -1,5 +1,5 @@
 class UserBookmark < ActiveRecord::Base
-	attr_accessible :bookmark_id, :user_id, :name
+	attr_accessible :bookmark_id, :user_id, :bookmark_name
 	
 	belongs_to :user, :class_name => "User"
 	belongs_to :bookmark, :class_name => "Bookmark"

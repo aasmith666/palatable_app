@@ -3,6 +3,7 @@ PalatableApp::Application.routes.draw do
   resources :users
   resources :sessions, 	:only => [:new, :create, :destroy]  
   resources :bookmarks#, :only => [:index, :new, :create, :show] #this refers to which urls will work
+  resources :user_bookmarks, :only => [:create, :show, :destroy]
   
   match '/signup',	:to => 'users#new'
   match '/signin',	:to => 'sessions#new'

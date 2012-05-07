@@ -13,11 +13,11 @@ class BookmarksController < ApplicationController
   def create
     @title = "Create"
 	@bookmark = Bookmark.new(params[:bookmark])
-    #@bookmark.user_id = current_user.id
 
     respond_to do |format|
       if @bookmark.save
-        format.html { redirect_to(@bookmark, :notice => 'Bookmark was successfully created.') }
+        @uBM = @bookmark.user_bookmarks.create(:user_id => current_user, :bookmark_name => @bookmark.name)
+		format.html { redirect_to(@bookmark, :notice => 'Bookmark was successfully created.') }
         format.xml  { render :xml => @bookmark, :status => :created, :location => @bookmark }
       else
         format.html { render :action => "new" }
@@ -29,7 +29,7 @@ class BookmarksController < ApplicationController
   def new
     @title = "New"
     @bookmark = Bookmark.new(params[:bookmark])
-
+	
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @bookmark }
@@ -39,7 +39,7 @@ class BookmarksController < ApplicationController
   def show
     @title = "View"
     @bookmark = Bookmark.find(params[:id])
-
+	
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @bookmark }
@@ -77,5 +77,7 @@ class BookmarksController < ApplicationController
       format.xml  { head :ok }
     end
    end
- end
+ 
+
+end
 

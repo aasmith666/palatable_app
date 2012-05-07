@@ -4,6 +4,6 @@
 	<%= user.email %>
 	<% if current_user.admin? %>
   | 	<%= link_to "Delete", user, :confirm => "You sure?", :method => :delete, 
-									:title => "Delete #{user.name}" %>
+									:title => "Delete #{user.username}" %>
 	<% end %>
 </li>

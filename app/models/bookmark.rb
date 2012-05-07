@@ -18,9 +18,22 @@ class Bookmark < ActiveRecord::Base
 	
 	default_scope :order => 'bookmarks.created_at DESC'
 
+#end
+	private
+
+		def bookmark?(bookmark)
+			user_bookmarks.find_by_bookmark_id(bookmark)
+		end
+
+		def bookmark!(bookmark)
+			user_bookmarks.create!(:bookmark_id => bookmark.id, :user_id => current_user)
+		end
+  
+		def unbookmark!(bookmark)
+			user_bookmarks.find_by_bookmark_id(bookmark).destroy
+		end
+	
 end
-
-
 # == Schema Information
 #
 # Table name: bookmarks

@@ -10,19 +10,19 @@
     <th></th>
   </tr>
 
-<% @user.bookmarks.each do |bookmark| %>
+<% @user.user_bookmarks.each do |ubm| %>
 
   <tr>
-    <td><%= bookmark.url %>&nbsp;&nbsp;</td>
-    <td><%= bookmark.name %>&nbsp;&nbsp;</td>
-    <td><%= bookmark.created_at %>&nbsp;&nbsp;</td>
-    <td><%= link_to 'Show', bookmark %>&nbsp;&nbsp;</td>
-    <td><%= link_to 'Edit', edit_bookmark_path(bookmark) %>&nbsp;&nbsp;</td>
-    <td><%= link_to 'Destroy', bookmark, :confirm => 'Are you sure?', :method => :delete %>&nbsp;&nbsp;</td>
+    <td><%= ubm.bookmarks.url %>&nbsp;&nbsp;</td>
+    <td><%= ubm.bookmark_name %>&nbsp;&nbsp;</td>
+    <td><%= ubm.created_at %>&nbsp;&nbsp;</td>
+    <td><%= link_to 'Show', @bookmark %>&nbsp;&nbsp;</td>
+    <td><%= link_to 'Edit', edit_bookmark_path(@bookmark) %>&nbsp;&nbsp;</td>
+    <td><%= link_to 'Destroy', @bookmark, :confirm => 'Are you sure?', :method => :delete %>&nbsp;&nbsp;</td>
   </tr>
 <% end %>
 </table>
 
 <br />
 <hr>
-<%= link_to 'Add Bookmark', new_bookmark_path(@current_user) %>
+<%= link_to 'Add Bookmark', new_bookmark_path(@bookmark) %>
