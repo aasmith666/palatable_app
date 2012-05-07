@@ -5,8 +5,8 @@ class Bookmark < ActiveRecord::Base
 	#Add relationship
 	#belongs_to :user
 	#has_many :user_bookmarks, :foreign_key => "user_id" #Correct???
-	has_many :user_bookmarks, :foreign_key => "bookmark_id" #Correct???
-	has_many :users, :through => :user_bookmarks, :source => "user_id"
+	has_many :user_bookmarks#, :foreign_key => "bookmark_id" #Correct???
+	has_many :users, :through => :user_bookmarks#, :source => "user_id"
 	
 	#Add Validation
 	validates 	:url, 	:presence 	=> true,

@@ -10,8 +10,8 @@ class User < ActiveRecord::Base
 	#Add relationship
 	#has_many :bookmarks, :dependent => :destroy
 	#has_many :user_bookmarks, :foreign_key => "bookmark_id", :dependent => :destroy
-	has_many :user_bookmarks, :foreign_key => "user_id", :dependent => :destroy
-	has_many :bookmarks, :through => :user_bookmarks, :source => "bookmark_id"
+	has_many :user_bookmarks#, :foreign_key => "user_id", :dependent => :destroy
+	has_many :bookmarks, :through => :user_bookmarks#, :source => "bookmark_id"
 	
 	#Define regular expression variable for valid email address
 	email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i

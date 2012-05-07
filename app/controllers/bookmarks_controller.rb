@@ -13,7 +13,7 @@ class BookmarksController < ApplicationController
   def create
     @title = "Create"
 	@bookmark = Bookmark.new(params[:bookmark])
-    @bookmark.user_id = current_user.id
+    #@bookmark.user_id = current_user.id
 
     respond_to do |format|
       if @bookmark.save

@@ -1,8 +1,8 @@
 class UserBookmark < ActiveRecord::Base
-	attr_accessible :bookmark_id, :user_id
+	attr_accessible :bookmark_id, :user_id, :name
 	
-	belongs_to :user#, :class_name => "User"
-	belongs_to :bookmark#, :class_name => "Bookmark"
+	belongs_to :user, :class_name => "User"
+	belongs_to :bookmark, :class_name => "Bookmark"
 	#has_many :bookmarks, :through => :user_bookmarks, :source => :bookmark_id
 	
 	validates :user_id, :presence => true
